@@ -81,6 +81,8 @@ client.on("reachLimit", (limit)=> {
 
 
 
+
+
 let spread = JSON.parse(fs.readFileSync('./spread.json' , 'utf8'));
 
 
@@ -335,6 +337,8 @@ client.on('message', message => {
     }
 
 });
+
+
 
 
 client.on('messageDelete', message => {
